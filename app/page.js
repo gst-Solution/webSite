@@ -1,14 +1,23 @@
 
-import Link from "next/link";
+import HeroSection from "@/components/hero";
+
+import servicesData from "@/dummyData.json"
+import Card from "@/components/cards";
+import Testimonial from "@/components/testimonial";
 
 export default function Home() {
   return (
-    
-<Link href="/upload" className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+    <>
+    <HeroSection />
+    <div className="mx-16 justify-center text-center grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+    {servicesData.services.map(service => (
+      <Card key={service.id} title={service.title} description={service.description.substr(0, 85)}/>
+    ))}
+    </div>
+    <Testimonial />
+        
+    </>  
 
-<h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Income tax e filing</h5>
-<p className="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-</Link>
 
   );
 }

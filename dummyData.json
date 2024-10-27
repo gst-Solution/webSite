@@ -1,0 +1,45 @@
+{
+    "services": [
+      {
+        "id": 1,
+        "title": "Individual Tax Preparation",
+        "description": "Prepare and file individual tax returns with a focus on maximizing deductions and credits, ensuring compliance with IRS regulations."
+      },
+      {
+        "id": 2,
+        "title": "Corporate Tax Services",
+        "description": "Comprehensive tax planning and filing for corporations, including partnerships and LLCs, aimed at minimizing tax liabilities and enhancing financial performance."
+      },
+      {
+        "id": 3,
+        "title": "Payroll Services",
+        "description": "Manage payroll processing, tax withholding, and compliance with labor laws, ensuring timely and accurate employee compensation."
+      },
+      {
+        "id": 4,
+        "title": "Bookkeeping and Accounting",
+        "description": "Maintain accurate financial records, including accounts payable and receivable, general ledger management, and monthly financial statements."
+      },
+      {
+        "id": 5,
+        "title": "Tax Planning and Consultation",
+        "description": "Provide strategic tax planning to help clients make informed financial decisions, optimize their tax situations, and prepare for future tax liabilities."
+      },
+      {
+        "id": 6,
+        "title": "IRS Representation",
+        "description": "Represent clients before the IRS in case of audits, appeals, and disputes, ensuring that their rights are protected throughout the process."
+      },
+      {
+        "id": 7,
+        "title": "Estate and Trust Tax Services",
+        "description": "Offer specialized tax services for estates and trusts, including tax return preparation and compliance to help manage inheritances effectively."
+      },
+      {
+        "id": 8,
+        "title": "Financial Advisory Services",
+        "description": "Provide expert financial advice on investment strategies, retirement planning, and wealth management to help clients achieve their financial goals."
+      }
+    ]
+  }
+  

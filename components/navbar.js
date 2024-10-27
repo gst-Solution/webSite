@@ -15,8 +15,8 @@ export default async function Navbar(){
     }
 
     return (
-        <div className="flex justify-between">
-            <h1 className="m-2 text-3xl font-extrabold">GST Solution</h1>
+        <div className="flex justify-between sticky top-0 bg-white dark:bg-black">
+            <h1 className="m-2 text-3xl font-extrabold"><Link href={"/"}>GST Solution</Link></h1>
             {result.user ? <div className="flex m-4">
                 <Link className="mx-4" href={"/profile"}>{greetingText}</Link>
                 <form action={logout} className="mx-4"><button>Logout</button></form>
