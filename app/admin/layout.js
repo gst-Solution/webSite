@@ -22,7 +22,7 @@ if(key !== adminKey){
 
     return (
         <div>
-          <div className="m-4">
+          <div className="m-4 min-h-screen">
             <Link className="m-4 p-2 border rounded-md border-gray-400" href={"/admin"}>Projects</Link>
             <Link className="m-4 p-2 border rounded-md border-gray-400" href={"/admin/users"}>Users</Link>
           </div>
