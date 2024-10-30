@@ -1,11 +1,13 @@
 'use client'
 
 import { useActionState } from "react";
+import {useFormStatus} from 'react-dom';
 import { signUp } from "@/lib/auth";
 import Link from "next/link";
 
 export default function AddUser(){
     const [formState, formAction] = useActionState(signUp, {})
+    const status = useFormStatus();
     return (
         <>       
 
@@ -47,7 +49,8 @@ export default function AddUser(){
         </ul>}
     </div>
     {formState.message && <p className="text-green-500 mb-2 text-xs">{formState.message}</p>}
-    <button type="submit" className="w-full focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-10 py-2.5 me-2 my-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">Sign up</button>
+    {status.pending ? <button disabled type="submit" className="animate-spin w-full focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-10 py-2.5 me-2 my-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">Signing up...</button> : <button type="submit" className="w-full focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-10 py-2.5 me-2 my-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">Sign up</button>}
+    
     <p className="my-6"> Existing user? <Link href={"/login"} className="text-orange-500 mx-1"> Login</Link></p>
 </form>
         </>
