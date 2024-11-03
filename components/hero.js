@@ -11,7 +11,7 @@ export default function HeroSection() {
   const [state, setState] = useState("")
     
   return (
-    <div className="h-96">
+    <div className="h-auto">
     <Carousel onSlideChange={(index) => setState(index)}>
       <div className="h-full items-center justify-center bg-gradient-to-br from-green-400 to-green-700 text-white">
         <div className="grid sm:grid-rows-2 md:grid-cols-2">
