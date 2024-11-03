@@ -1,39 +1,37 @@
-import Link from "next/link";
 
-export default function HeroSection(){
-    return (
-<div className="bg-gradient-to-b from-violet-600/10 via-transparent">
-  <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-24 space-y-8">
+"use client";
+
+import { Carousel } from "flowbite-react";
+import { Button } from "flowbite-react";
+import Image from "next/image";
+import { useState } from "react";
+
+export default function HeroSection() {
+
+  const [state, setState] = useState("")
     
-  <div className="flex justify-center">
-      <Link className="group inline-flex items-center bg-white/10 hover:bg-white/10 border border-white/10 p-1 ps-4 rounded-full shadow-md focus:outline-none focus:bg-white/10" href="#">
-        <p className="me-2 text-sm">
-        ☏ 9732896198
-        </p>
-        <span className="group-hover:bg-white/10 py-1.5 px-2.5 flex justify-center items-center gap-x-2 rounded-full bg-white/10 font-semibold text-sm">
-          <svg className="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6"/></svg>
-        </span>
-      </Link>
-    </div>
-
-    <div className="max-w-3xl text-center mx-auto">
-      <h1 className="block font-medium text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
-      Maximize Your Savings with Expert Tax Guidance
-      </h1>
-    </div>
-
-
-    <div className="max-w-3xl text-center mx-auto">
-      <p className="text-lg">At <span className="text-blue-500">GST Solution</span>, we simplify the complexities of tax and accounting. Our expert team is dedicated to providing personalized solutions that maximize your savings and ensure compliance. Whether you are an individual or a business, we are here to guide you every step of the way, helping you achieve your financial goals with confidence.</p>
-    </div>
-
-    <div className="text-center">
-      <Link className="inline-flex justify-center items-center gap-x-3 text-center bg-gradient-to-tl from-blue-600 to-violet-600 shadow-lg shadow-transparent hover:shadow-blue-700/50 border border-transparent text-white text-sm font-medium rounded-full focus:outline-none focus:shadow-blue-700/50 py-3 px-6" href="/#">
-        Get started
-        <svg className="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6"/></svg>
-      </Link>
-    </div>
+  return (
+    <div className="h-96">
+    <Carousel onSlideChange={(index) => setState(index)}>
+      <div className="h-full items-center justify-center bg-gradient-to-br from-green-400 to-green-700 text-white">
+        <div className="grid sm:grid-rows-2 md:grid-cols-2">
+            <div className="md:order-last"><Image src="https://res.cloudinary.com/dafshcwj1/image/upload/v1730387776/financial-5050415-removebg-preview_mrqwjf.png" className="object-scale-down" alt="1" width={500} height={500} /></div>
+            <div className="flex justify-center items-center"><div><h2 data-id={state} className="text-5xl font-bold m-4 data-[id=0]:animate-fadeinleft">GST e-filing</h2><Button data-id={state} className="mx-auto px-6 text-green-600 font-semibold data-[id=0]:animate-fadeinup" color="light">Know more</Button></div></div>
+        </div>
+      </div>
+      <div className="h-full items-center justify-center bg-gradient-to-br from-green-400 to-green-700 text-white">
+        <div className="grid sm:grid-rows-2 md:grid-cols-2">
+            <div className="md:order-last"><Image src="https://res.cloudinary.com/dafshcwj1/image/upload/v1730387742/audit-6904474_1920-removebg-preview_lpsgiq.png" className="object-scale-down" alt="2" width={500} height={500} /></div>
+            <div className="flex justify-center items-center"><div><h2 data-id={state} className="text-5xl font-bold m-4 data-[id=1]:animate-fadeinleft">Accounting</h2><Button data-id={state} className="mx-auto px-6 text-green-600 font-semibold data-[id=1]:animate-fadeinup" color="light">Know more</Button></div></div>
+        </div>
+      </div>
+      <div className="h-full items-center justify-center bg-gradient-to-br from-green-400 to-green-700 text-white">
+        <div className="grid sm:grid-rows-2 md:grid-cols-2">
+            <div className="md:order-last object-scale-down"><Image src="https://res.cloudinary.com/dafshcwj1/image/upload/v1730387804/tax-7630744_1280-removebg-preview_ssuh3i.png"  alt="3" width={500} height={500} /></div>
+            <div className="flex justify-center items-center"><div><h2 data-id={state} className="text-5xl font-bold m-4 data-[id=2]:animate-fadeinleft">Tax audit</h2><Button data-id={state} className="mx-auto px-6 text-green-600 font-semibold data-[id=2]:animate-fadeinup" color="light">Know more</Button></div></div>
+        </div>
+      </div>
+    </Carousel>
   </div>
-</div>
-    )
+  );
 }

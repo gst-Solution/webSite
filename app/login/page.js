@@ -8,6 +8,7 @@ import Link from "next/link";
 export default function LoginPage(){
   const [formState, formAction] = useActionState(login, {});
   const status = useFormStatus();
+  console.log(status.pending)
     return (
         <> 
         <h2 className="max-w-sm mt-20 mx-auto text-center p-4 m-4">Welcome to GST Solution</h2>
