@@ -4,6 +4,7 @@ import { verifyAuth } from "@/lib/lucia-auth";
 import Link from "next/link";
 import { Navbar, NavbarBrand, NavbarCollapse, NavbarLink, NavbarToggle } from "flowbite-react";
 import { Dropdown, DropdownItem } from "flowbite-react";
+import Image from "next/image";
 
 export default async function Navigation(){
 
@@ -39,7 +40,7 @@ export default async function Navigation(){
 
             <Navbar fluid rounded>
       <NavbarBrand as={Link} href="/">
-        {/* <img src="/favicon.svg" className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" /> */}
+        <Image src="https://res.cloudinary.com/dafshcwj1/image/upload/v1730734287/Screenshot_2024-11-04_205719-removebg-preview_seta4i.png" className="mr-3 h-6 sm:h-9" alt="Gst Solution Logo" width={40} height={40} />
         <span className="self-center text-3xl font-extrabold whitespace-nowrap bg-gradient-to-r from-orange-500 to-green-500 bg-clip-text text-transparent">Gst Solution</span>
       </NavbarBrand>
       <NavbarToggle />

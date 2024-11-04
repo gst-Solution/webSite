@@ -15,12 +15,12 @@ export default function Testimonial(){
       <div className="mb-12 md:mb-0">
         <div className="mb-6 flex justify-center">
           <img
-            src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(1).jpg"
+            src="https://scontent.fccu17-1.fna.fbcdn.net/v/t39.30808-6/372764260_6480352112056382_1357501176060649976_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=1fLmvEmi5ckQ7kNvgHlLFHT&_nc_zt=23&_nc_ht=scontent.fccu17-1.fna&_nc_gid=Ad1V5jtyu2xiZL6M_DmK2LP&oh=00_AYC4NilbLTsjDJgWGgLWLAS8do7AS9goaXEKolQS3oRzng&oe=672EBCBB"
             className="w-32 rounded-full shadow-lg dark:shadow-black/30" />
         </div>
-        <h5 className="mb-4 text-xl font-semibold">Maria Smantha</h5>
+        <h5 className="mb-4 text-xl font-semibold">Avishek Halder</h5>
         <h6 className="mb-4 font-semibold text-primary dark:text-primary-400">
-          Web Developer
+        Asst. teacher, Udaynarayanpur Sarada Charan Institution
         </h6>
         <p className="mb-4 text-neutral-600 dark:text-neutral-300">
           <span className="inline-block pe-2 [&>svg]:w-5"
@@ -32,8 +32,9 @@ export default function Testimonial(){
                 d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
             </svg>
           </span>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos
-          id officiis hic tenetur quae quaerat ad velit ab hic tenetur.
+          Fantastic presentation...
+Must go to GST Solution without any hesitation....
+I want to give one more star but there is no option..
         </p>
         <ul className="mb-0 flex items-center justify-center">
           <li>
@@ -104,10 +105,10 @@ export default function Testimonial(){
       <div className="mb-12 md:mb-0">
         <div className="mb-6 flex justify-center">
           <img
-            src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(2).jpg"
+            src="https://scontent.fccu17-1.fna.fbcdn.net/v/t39.30808-6/426751803_3761296137440700_8991387646989265376_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=UTANjT7pBDoQ7kNvgHK_mXZ&_nc_zt=23&_nc_ht=scontent.fccu17-1.fna&_nc_gid=AOu3PaaSV-vMS2JTfOijqPz&oh=00_AYBN5tAqmR920xCZ4ZXyD8SyVENtV3_oxTGCjfaLXX9Yzg&oe=672ECCD4"
             className="w-32 rounded-full shadow-lg dark:shadow-black/30" />
         </div>
-        <h5 className="mb-4 text-xl font-semibold">Lisa Cudrow</h5>
+        <h5 className="mb-4 text-xl font-semibold">Joying Shantanu</h5>
         <h6 className="mb-4 font-semibold text-primary dark:text-primary-400">
           Graphic Designer
         </h6>
@@ -122,8 +123,7 @@ export default function Testimonial(){
                 d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
             </svg>
           </span>
-          Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
-          suscipit laboriosam, nisi ut aliquid commodi.
+          Best Service Provider gst solution. Good Experience 💯👍🏻
         </p>
         <ul className="mb-0 flex items-center justify-center">
           <li>
@@ -191,10 +191,10 @@ export default function Testimonial(){
       <div className="mb-0">
         <div className="mb-6 flex justify-center">
           <img
-            src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(9).jpg"
+            src="https://scontent.fccu17-1.fna.fbcdn.net/v/t39.30808-6/433259687_1613763459400032_5772345684153554891_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=gOBoqpxn92cQ7kNvgHTrqW8&_nc_zt=23&_nc_ht=scontent.fccu17-1.fna&_nc_gid=AI00qgYIilHmUzXVpV-7gcv&oh=00_AYD1e-S9EbCBqt2X91DK5hoopxQZpyKj5WM4y6RK1IEFJg&oe=672ED830"
             className="w-32 rounded-full shadow-lg dark:shadow-black/30" />
         </div>
-        <h5 className="mb-4 text-xl font-semibold">John Smith</h5>
+        <h5 className="mb-4 text-xl font-semibold">Sourav Mal</h5>
         <h6 className="mb-4 font-semibold text-primary dark:text-primary-400">
           Marketing Specialist
         </h6>
@@ -209,8 +209,7 @@ export default function Testimonial(){
                 d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
             </svg>
           </span>
-          At vero eos et accusamus et iusto odio dignissimos ducimus qui
-          blanditiis praesentium voluptatum deleniti atque corrupti.
+          Perfect services
         </p>
         <ul className="mb-0 flex items-center justify-center">
           <li>
