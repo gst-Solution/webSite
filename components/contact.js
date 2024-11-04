@@ -12,7 +12,7 @@ export default function Contact() {
                 <p>Gst Solution motivated platform establishing the specialized legal, Tax preparation services, legal services, business-to-business (B2B)/enterprise services .
            Our mission is to provide one-click access to individuals and businesses for all their legal and professional needs. We believe in delivering the services without compromising on time and quality.</p>
             </div>
-            <div className="mx-10 mt-20 p-20 border-l-4 rounded-lg bg-slate-200">
+            <div className="mx-10 mt-20 p-5 md:p-10 lg:p-20 border-l-4 rounded-lg bg-slate-200">
                 <h3 className="text-4xl font-semibold border-b-2 border-slate-400 text-center pb-4 text-gray-800">Get a free consultation</h3>
             <form className="flex max-w-md flex-col gap-4 mx-auto mt-8">
       <div>

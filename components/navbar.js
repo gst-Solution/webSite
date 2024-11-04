@@ -3,6 +3,7 @@ import { getUserById } from "@/lib/db-quary";
 import { verifyAuth } from "@/lib/lucia-auth";
 import Link from "next/link";
 import { Navbar, NavbarBrand, NavbarCollapse, NavbarLink, NavbarToggle } from "flowbite-react";
+import { Dropdown, DropdownItem } from "flowbite-react";
 
 export default async function Navigation(){
 
@@ -11,21 +12,24 @@ export default async function Navigation(){
     if (result.user){
         const id = result.user.id;
        const authUser = await getUserById(id);
-         greetingText = "Welcome " + authUser[0].f_name;
+         greetingText = "Hi, " + authUser[0].f_name;
 
     }
 
     return (
         <>
         <div className="flex z-10 text-white justify-between sticky top-0 bg-gradient-to-r from-orange-600 to-green-500">
-            <p className="my-1 mx-12 flex"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6 p-1">
+            <p className="my-1 mx-10 flex"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6 p-1">
   <path fillRule="evenodd" d="M1.5 4.5a3 3 0 0 1 3-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 0 1-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 0 0 6.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 0 1 1.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 0 1-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5Z" clipRule="evenodd" />
 </svg>
 
 9732896198</p>
-            {result.user ? <div className="flex m-1">
-                <Link className="mx-4" href={"/profile"}>{greetingText}</Link>
-                <form action={logout} className="mx-4"><button>Logout</button></form>
+            {result.user ? <div className="flex my-1 mx-8">
+              <Dropdown label={greetingText} inline>
+              <DropdownItem onClick={logout}>
+                Logout
+              </DropdownItem>
+              </Dropdown>                
             </div> : <div className="m-1">
                 <Link className="mx-4" href={"/signup"}>Sign up</Link>
                 <Link className="mx-4" href={"/login"}>Login</Link>
