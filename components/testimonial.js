@@ -17,7 +17,7 @@ export default function Testimonial(){
       <div className="mb-12 md:mb-0">
         <div className="mb-6 flex justify-center">
           <Image
-            src="https://res.cloudinary.com/dafshcwj1/image/upload/v1731766797/58061908c9e0b29f0a7b23c6.w800_cgml9x.jpg" width={500} height={500} alt="ProfilePhoto" className="w-32 rounded-full shadow-lg dark:shadow-black/30" />
+            src="https://res.cloudinary.com/dafshcwj1/image/upload/v1731767635/58061908c9e0b29f0a7b23c6.w800_gwbpl8.jpg" width={500} height={500} alt="ProfilePhoto" className="w-32 rounded-full shadow-lg dark:shadow-black/30" />
         </div>
         <h5 className="mb-4 text-xl font-semibold">Anirban Halder</h5>
         <h6 className="mb-4 font-semibold text-primary dark:text-primary-400">
@@ -106,7 +106,7 @@ I want to give one more star but there is no option..
       <div className="mb-12 md:mb-0">
         <div className="mb-6 flex justify-center">
           <Image
-            src="https://res.cloudinary.com/dafshcwj1/image/upload/v1731766818/close-head-shot-portrait-preppy-600nw-1433809418_izwmei.webp" width={500} height={500} alt="ProfilePhoto"
+            src="https://res.cloudinary.com/dafshcwj1/image/upload/v1731767618/close-head-shot-portrait-preppy-600nw-1433809418_wkg3su.jpg" width={500} height={500} alt="ProfilePhoto"
             className="w-32 rounded-full shadow-lg dark:shadow-black/30" />
         </div>
         <h5 className="mb-4 text-xl font-semibold">Moumita Samui</h5>
