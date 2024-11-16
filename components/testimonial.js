@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export default function Testimonial(){
     return (
       <div className="my-20">
@@ -14,11 +16,10 @@ export default function Testimonial(){
     <div className="grid gap-6 text-center md:grid-cols-3 lg:gap-12">
       <div className="mb-12 md:mb-0">
         <div className="mb-6 flex justify-center">
-          <img
-            src="https://scontent.fccu17-1.fna.fbcdn.net/v/t39.30808-6/372764260_6480352112056382_1357501176060649976_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=1fLmvEmi5ckQ7kNvgHlLFHT&_nc_zt=23&_nc_ht=scontent.fccu17-1.fna&_nc_gid=Ad1V5jtyu2xiZL6M_DmK2LP&oh=00_AYC4NilbLTsjDJgWGgLWLAS8do7AS9goaXEKolQS3oRzng&oe=672EBCBB"
-            className="w-32 rounded-full shadow-lg dark:shadow-black/30" />
+          <Image
+            src="https://res.cloudinary.com/dafshcwj1/image/upload/v1731766797/58061908c9e0b29f0a7b23c6.w800_cgml9x.jpg" width={500} height={500} alt="ProfilePhoto" className="w-32 rounded-full shadow-lg dark:shadow-black/30" />
         </div>
-        <h5 className="mb-4 text-xl font-semibold">Avishek Halder</h5>
+        <h5 className="mb-4 text-xl font-semibold">Anirban Halder</h5>
         <h6 className="mb-4 font-semibold text-primary dark:text-primary-400">
         Asst. teacher, Udaynarayanpur Sarada Charan Institution
         </h6>
@@ -104,11 +105,11 @@ I want to give one more star but there is no option..
       </div>
       <div className="mb-12 md:mb-0">
         <div className="mb-6 flex justify-center">
-          <img
-            src="https://scontent.fccu17-1.fna.fbcdn.net/v/t39.30808-6/426751803_3761296137440700_8991387646989265376_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=UTANjT7pBDoQ7kNvgHK_mXZ&_nc_zt=23&_nc_ht=scontent.fccu17-1.fna&_nc_gid=AOu3PaaSV-vMS2JTfOijqPz&oh=00_AYBN5tAqmR920xCZ4ZXyD8SyVENtV3_oxTGCjfaLXX9Yzg&oe=672ECCD4"
+          <Image
+            src="https://res.cloudinary.com/dafshcwj1/image/upload/v1731766818/close-head-shot-portrait-preppy-600nw-1433809418_izwmei.webp" width={500} height={500} alt="ProfilePhoto"
             className="w-32 rounded-full shadow-lg dark:shadow-black/30" />
         </div>
-        <h5 className="mb-4 text-xl font-semibold">Joying Shantanu</h5>
+        <h5 className="mb-4 text-xl font-semibold">Moumita Samui</h5>
         <h6 className="mb-4 font-semibold text-primary dark:text-primary-400">
           Graphic Designer
         </h6>
@@ -190,11 +191,11 @@ I want to give one more star but there is no option..
       </div>
       <div className="mb-0">
         <div className="mb-6 flex justify-center">
-          <img
-            src="https://scontent.fccu17-1.fna.fbcdn.net/v/t39.30808-6/433259687_1613763459400032_5772345684153554891_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=gOBoqpxn92cQ7kNvgHTrqW8&_nc_zt=23&_nc_ht=scontent.fccu17-1.fna&_nc_gid=AI00qgYIilHmUzXVpV-7gcv&oh=00_AYD1e-S9EbCBqt2X91DK5hoopxQZpyKj5WM4y6RK1IEFJg&oe=672ED830"
+          <Image
+            src="https://res.cloudinary.com/dafshcwj1/image/upload/v1731766861/profile_IMG_20170707_034945_547_tcnozi.jpg" width={500} height={500} alt="ProfilePhoto"
             className="w-32 rounded-full shadow-lg dark:shadow-black/30" />
         </div>
-        <h5 className="mb-4 text-xl font-semibold">Sourav Mal</h5>
+        <h5 className="mb-4 text-xl font-semibold">Sourav Pal</h5>
         <h6 className="mb-4 font-semibold text-primary dark:text-primary-400">
           Marketing Specialist
         </h6>
